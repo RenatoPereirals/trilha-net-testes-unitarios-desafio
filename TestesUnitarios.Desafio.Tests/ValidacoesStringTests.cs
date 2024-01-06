@@ -7,7 +7,7 @@ public class ValidacoesStringTests
     private ValidacoesString _validacoes = new ValidacoesString();
 
     [Fact]
-    public void DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()
+    public void RetornarQuantidadeCaracteres_DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()
     {
         //TODO: Corrigir a variável "texto" e "resultadoEsperado" da seção Arrange
 
@@ -23,7 +23,7 @@ public class ValidacoesStringTests
     }
 
     [Fact]
-    public void DeveContemAPalavraQualquerNoTexto()
+    public void ContemCaractere_DeveContemAPalavraQualquerNoTexto()
     {
         // Arrange
         var texto = "Esse é um texto qualquer";
@@ -39,7 +39,7 @@ public class ValidacoesStringTests
     }
 
     [Fact]
-    public void NaoDeveConterAPalavraTesteNoTexto()
+    public void ContemCaractere_NaoDeveConterAPalavraTesteNoTexto()
     {
         // Arrange
         var texto = "Esse é um texto qualquer";
@@ -54,7 +54,7 @@ public class ValidacoesStringTests
     }
 
     //TODO: Corrigir a anotação [Fact]
-    public void TextoDeveTerminarComAPalavraProcurado()
+    public void TextoTerminaCom_TextoDeveTerminarComAPalavraProcurado()
     {
         //TODO: Corrigir a variável "textoProcurado" seção Arrange
 
