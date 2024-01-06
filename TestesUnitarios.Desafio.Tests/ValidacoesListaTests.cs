@@ -7,7 +7,7 @@ public class ValidacoesListaTests
     private ValidacoesLista _validacoes = new ValidacoesLista();
 
     [Fact]
-    public void DeveRemoverNumerosNegativosDeUmaLista()
+    public void RemoverNumerosNegativos_DeveRemoverNumerosNegativosDeUmaLista()
     {
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
@@ -21,7 +21,7 @@ public class ValidacoesListaTests
     }
 
     [Fact]
-    public void DeveConterONumero9NaLista()
+    public void ListaContemDeterminadoNumero_DeveConterONumero9NaLista()
     {
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
@@ -35,7 +35,7 @@ public class ValidacoesListaTests
     }
 
     [Fact]
-    public void NaoDeveConterONumero10NaLista()
+    public void ListaContemDeterminadoNumero_NaoDeveConterONumero10NaLista()
     {
         //TODO: Implementar método de teste
 
@@ -49,7 +49,7 @@ public class ValidacoesListaTests
     }
 
     //TODO: Corrigir a anotação [Fact]
-    public void DeveMultiplicarOsElementosDaListaPor2()
+    public void MultiplicarNumerosLista_DeveMultiplicarOsElementosDaListaPor2()
     {
         //TODO: Implementar método de teste
 
@@ -63,7 +63,7 @@ public class ValidacoesListaTests
     }
 
     [Fact]
-    public void DeveRetornar9ComoMaiorNumeroDaLista()
+    public void RetornarMaiorNumeroLista_DeveRetornar9ComoMaiorNumeroDaLista()
     {
         //TODO: Implementar método de teste
 
@@ -78,7 +78,7 @@ public class ValidacoesListaTests
     }
 
     [Fact]
-    public void DeveRetornarOitoNegativoComoMenorNumeroDaLista()
+    public void RetornarMenorNumeroLista_DeveRetornarOitoNegativoComoMenorNumeroDaLista()
     {
         //TODO: Implementar método de teste
 
